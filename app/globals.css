@@ -29,5 +29,26 @@ body {
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+
+
   }
+}
+
+.about-me-button {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: color 0.3s, background-color 0.3s; /* Додали перехід для кольорів */
+}
+
+.about-me-button:hover {
+  background-color: #fff;
+  color: #000;
+}
+.about-me-text {
+  color: #000; /* Чорний колір тексту */
 }
